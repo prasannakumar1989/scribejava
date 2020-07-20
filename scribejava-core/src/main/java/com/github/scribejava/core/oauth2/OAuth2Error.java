@@ -81,7 +81,7 @@ public enum OAuth2Error {
                 return error;
             }
         }
-        throw new IllegalArgumentException("there is no knowlege about '" + errorString + "' Error");
+        throw new IllegalArgumentException("There is no knowledge about '" + errorString + "' error");
     }
 
     public String getErrorString() {
